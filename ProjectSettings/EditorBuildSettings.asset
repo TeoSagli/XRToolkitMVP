@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EscapeRoom/Game.unity
+    path: Assets/Scenes/EscapeRoom/Features/Door Feature.unity
     guid: a3d6debbf0ca9184bac586c1f8cfb08e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d7733b2b93fc9a04288b4b15d49d20b5, type: 2}
