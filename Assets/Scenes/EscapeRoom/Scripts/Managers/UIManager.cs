@@ -4,8 +4,9 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DilmerGames.Core.Singletons;
 
-public class UIManager : MonoBehaviour
+public class UIManager : Singleton<UIManager>
 {
     private const string GAME_SCENE_NAME = "Game";
 
@@ -36,10 +37,16 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         //listen to game manager state changes
+        GameManager.Instance.onGamePaused += HandleMenuOptions;
+        GameManager.Instance.onGameResumed += HandleMenuOptions;
+        GameManager.Instance.onGameSolved += HandleMenuOptions;
     }
     private void OnDisable()
     {
         //remove listeners
+        GameManager.Instance.onGamePaused -= HandleMenuOptions;
+        GameManager.Instance.onGameResumed -= HandleMenuOptions;
+        GameManager.Instance.onGameSolved -= HandleMenuOptions;
     }
     private void HandleMenuOptions(GameState gameState)
     {

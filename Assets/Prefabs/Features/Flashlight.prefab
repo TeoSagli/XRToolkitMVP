@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308599113715843823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.744, z: -2.638}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -352,7 +352,6 @@ MonoBehaviour:
   <AudioClipForOnStopped>k__BackingField: {fileID: 8300000, guid: ebee0c1b947b33c4ca6d0db87ee182e9, type: 3}
   featureUsage: 0
   flashlightPivot: {fileID: 4161859073242144591}
-  maxDistance: 0.25
   on: 0
   grabInteractable: {fileID: 6298006387559419714}
 --- !u!1 &6174202473556641758

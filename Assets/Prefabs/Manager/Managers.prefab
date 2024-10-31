@@ -224,6 +224,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc77e7a448f1c684b94c161db31bc742, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllerMenuAction:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Controller Menu
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 6de72232-a471-430f-bcd7-806b7b775462
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 4116954447336496447, guid: 0be0028c24f2a4c14a96b6aa39055933, type: 3}
 --- !u!1 &3689541192357709085
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,3 +326,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0127847e85b928948a4de0f237d0ad85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <gameState>k__BackingField: 0
