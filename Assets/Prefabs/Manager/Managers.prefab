@@ -280,7 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3b841bc1c5eb58419cafc9ae933099f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offsetPositionFromPlayer: 1
+  offsetPositionFromPlayer: 2
   menuContainer: {fileID: 0}
 --- !u!1 &4161866017059112010
 GameObject:

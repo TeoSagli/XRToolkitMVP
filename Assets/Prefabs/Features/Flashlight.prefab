@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2183371695735489610}
   - component: {fileID: 1955044203502464176}
   - component: {fileID: 2929264218130296884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flashlight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ Transform:
   - {fileID: 1187660767448507719}
   - {fileID: 5539858510003403322}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1832350291943872307
 Rigidbody:
@@ -363,7 +363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6571056603505822029}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -395,7 +395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5539858510003403322}
   - component: {fileID: 168473130157051749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,7 +491,7 @@ GameObject:
   - component: {fileID: 3794194829723788002}
   - component: {fileID: 1691441692033862196}
   - component: {fileID: 190530811179756838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Flashlight_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

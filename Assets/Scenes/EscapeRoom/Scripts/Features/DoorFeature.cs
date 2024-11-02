@@ -66,6 +66,7 @@ public class DoorFeature : BaseFeature
             open = true;
             currCoroutine = ProcessMotion();
             StartCoroutine(currCoroutine);
+            StopInteractions();
         }
     }
     private IEnumerator ProcessMotion()
@@ -86,14 +87,18 @@ public class DoorFeature : BaseFeature
                 var featureRigidBody = GetComponent<Rigidbody>();
                 if (featureRigidBody != null && makeItKinematicOnceOpened)
                     featureRigidBody.isKinematic = true;
-                //disable interactable when opened
-                if (simpleInteractable != null)
-                    simpleInteractable.enabled = false;
+
             }
             yield return null;
         }
 
 
+    }
+    private void StopInteractions()
+    {
+        //disable interactable when opened
+        if (simpleInteractable != null)
+            simpleInteractable.enabled = false;
     }
 
 }

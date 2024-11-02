@@ -27,16 +27,18 @@ public class ControllerManager : Singleton<ControllerManager>
         // bind to game manager events
         GameManager.Instance.onGamePaused += ControllerRayInteractorInput;
         GameManager.Instance.onGameResumed += ControllerRayInteractorInput;
+        GameManager.Instance.onGameSolved += ControllerRayInteractorInput;
     }
     private void OnDisable()
     {
+        controllerMenuAction.action.performed -= ControllerMenuActionPerformed;
         GameManager.Instance.onGamePaused -= ControllerRayInteractorInput;
         GameManager.Instance.onGameResumed -= ControllerRayInteractorInput;
+        GameManager.Instance.onGameSolved -= ControllerRayInteractorInput;
     }
     private void ControllerMenuActionPerformed(InputAction.CallbackContext obj)
     {
         onControllerMenuActionExecuted?.Invoke();
-
     }
 
     private void ControllerRayInteractorInput(GameState gameState = GameState.Playing)
