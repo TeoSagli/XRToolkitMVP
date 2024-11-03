@@ -1,0 +1,122 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAEA1E32FA56978A724BD1B50A7585292798ECDCA (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m1FE298CE5B0FCAC3C1779C4D63B20CA0A918D772 (void);
+extern void HandsAndControllersManager_OnEnable_m1A6858CB2959473B47A97020F2104C25A919CA34 (void);
+extern void HandsAndControllersManager_OnDisable_m855F8E39693D15E9E5835CDA5148C01BA6B2EAFB (void);
+extern void HandsAndControllersManager_ToggleLeftHand_m1F1ACDF07A53BB7E85064E0A1A90487B19896304 (void);
+extern void HandsAndControllersManager_ToggleRightHand_m9B991E3006C8C0C2D2B08CD42697DA83DCDA5B64 (void);
+extern void HandsAndControllersManager_OnHandTrackingAcquired_m32A07B0FA4C0DE38934FA697B147B4575B64B645 (void);
+extern void HandsAndControllersManager_OnHandTrackingLost_m027F37B97FBE0E160B4988D2FE01CA9B24FF2B44 (void);
+extern void HandsAndControllersManager_ToggleHand_m3E415079BB82398EAF79864A54610DDA99C26152 (void);
+extern void HandsAndControllersManager__ctor_m76F05917B06080DBBC1FD66E71257A48F730A297 (void);
+extern void HandsAndControllersManager__cctor_mE9DA1C19EA339FE2595AF706FDF3707C3D8AD33A (void);
+extern void ObjectResetPlane_Start_mB392CE4851EE4B43ECA891CDAC0E58811DBEB749 (void);
+extern void ObjectResetPlane_Update_mFFD955BAF5684166CC09D48B84E7BE6C790EA971 (void);
+extern void ObjectResetPlane__ctor_mC9E2B69E8F9FD3B1F1011DC301332C45113439D2 (void);
+extern void PokeGestureDetector_OnEnable_m6DD27B030C68C0264DA2550664810470AB98F3D1 (void);
+extern void PokeGestureDetector_OnDisable_m0CD604623E5AC457F5A211AB6DB87B8AEF5CEA9F (void);
+extern void PokeGestureDetector_OnHandsUpdated_m5CFB5E26F140A9B29A2E6361F7F239523663E99B (void);
+extern void PokeGestureDetector_OnHandTrackingLost_mAA2C199AF4A399DBD76C521E4D44DE31A3E24588 (void);
+extern void PokeGestureDetector_HasUpdateSuccessFlag_mBC99EAA5370D5E23ABC01C313A03ECB88EF99655 (void);
+extern void PokeGestureDetector_IsIndexExtended_mBCAEF05D801F4F24AD729FC1696EC0E8F758BA73 (void);
+extern void PokeGestureDetector_IsMiddleGrabbing_m992C297A51CC20F8133E1663916F766F3AFE75E0 (void);
+extern void PokeGestureDetector_IsRingGrabbing_m50488D913D581FD7EF82AE8F4972D8220A1CAAB4 (void);
+extern void PokeGestureDetector_IsLittleGrabbing_m43A33AD4EBC1FC7E56712E6806559F19E67666A5 (void);
+extern void PokeGestureDetector_StartPokeGesture_m70ABEC1433DA03E304CC7F1C701BA59F3BA7CA7D (void);
+extern void PokeGestureDetector_EndPokeGesture_mE8ECDBF9E14D27A44E583607A8BADF49391C04B8 (void);
+extern void PokeGestureDetector__ctor_mA6D3EC9146A3DACF8D754DE5EB5485369BCB78C1 (void);
+extern void PokeGestureDetector__cctor_mBF87F492F57E3FF6709F92E8B4D3BF04CF36196B (void);
+static Il2CppMethodPointer s_methodPointers[27] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mAEA1E32FA56978A724BD1B50A7585292798ECDCA,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m1FE298CE5B0FCAC3C1779C4D63B20CA0A918D772,
+	HandsAndControllersManager_OnEnable_m1A6858CB2959473B47A97020F2104C25A919CA34,
+	HandsAndControllersManager_OnDisable_m855F8E39693D15E9E5835CDA5148C01BA6B2EAFB,
+	HandsAndControllersManager_ToggleLeftHand_m1F1ACDF07A53BB7E85064E0A1A90487B19896304,
+	HandsAndControllersManager_ToggleRightHand_m9B991E3006C8C0C2D2B08CD42697DA83DCDA5B64,
+	HandsAndControllersManager_OnHandTrackingAcquired_m32A07B0FA4C0DE38934FA697B147B4575B64B645,
+	HandsAndControllersManager_OnHandTrackingLost_m027F37B97FBE0E160B4988D2FE01CA9B24FF2B44,
+	HandsAndControllersManager_ToggleHand_m3E415079BB82398EAF79864A54610DDA99C26152,
+	HandsAndControllersManager__ctor_m76F05917B06080DBBC1FD66E71257A48F730A297,
+	HandsAndControllersManager__cctor_mE9DA1C19EA339FE2595AF706FDF3707C3D8AD33A,
+	ObjectResetPlane_Start_mB392CE4851EE4B43ECA891CDAC0E58811DBEB749,
+	ObjectResetPlane_Update_mFFD955BAF5684166CC09D48B84E7BE6C790EA971,
+	ObjectResetPlane__ctor_mC9E2B69E8F9FD3B1F1011DC301332C45113439D2,
+	PokeGestureDetector_OnEnable_m6DD27B030C68C0264DA2550664810470AB98F3D1,
+	PokeGestureDetector_OnDisable_m0CD604623E5AC457F5A211AB6DB87B8AEF5CEA9F,
+	PokeGestureDetector_OnHandsUpdated_m5CFB5E26F140A9B29A2E6361F7F239523663E99B,
+	PokeGestureDetector_OnHandTrackingLost_mAA2C199AF4A399DBD76C521E4D44DE31A3E24588,
+	PokeGestureDetector_HasUpdateSuccessFlag_mBC99EAA5370D5E23ABC01C313A03ECB88EF99655,
+	PokeGestureDetector_IsIndexExtended_mBCAEF05D801F4F24AD729FC1696EC0E8F758BA73,
+	PokeGestureDetector_IsMiddleGrabbing_m992C297A51CC20F8133E1663916F766F3AFE75E0,
+	PokeGestureDetector_IsRingGrabbing_m50488D913D581FD7EF82AE8F4972D8220A1CAAB4,
+	PokeGestureDetector_IsLittleGrabbing_m43A33AD4EBC1FC7E56712E6806559F19E67666A5,
+	PokeGestureDetector_StartPokeGesture_m70ABEC1433DA03E304CC7F1C701BA59F3BA7CA7D,
+	PokeGestureDetector_EndPokeGesture_mE8ECDBF9E14D27A44E583607A8BADF49391C04B8,
+	PokeGestureDetector__ctor_mA6D3EC9146A3DACF8D754DE5EB5485369BCB78C1,
+	PokeGestureDetector__cctor_mBF87F492F57E3FF6709F92E8B4D3BF04CF36196B,
+};
+static const int32_t s_InvokerIndices[27] = 
+{
+	10749,
+	6216,
+	6216,
+	6216,
+	4787,
+	4787,
+	4991,
+	4991,
+	2360,
+	6216,
+	10730,
+	6216,
+	6216,
+	6216,
+	6216,
+	6216,
+	2403,
+	4991,
+	8079,
+	9388,
+	9388,
+	9388,
+	9388,
+	6216,
+	6216,
+	6216,
+	10730,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_Hands_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_XR_Interaction_Toolkit_Samples_Hands_CodeGenModule = 
+{
+	"Unity.XR.Interaction.Toolkit.Samples.Hands.dll",
+	27,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
