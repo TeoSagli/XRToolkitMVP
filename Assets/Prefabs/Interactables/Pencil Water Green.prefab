@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3060698776574260470}
   - component: {fileID: 7041755721838886400}
   - component: {fileID: 9212786230222698452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pencil Water Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7884714906217709100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}

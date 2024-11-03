@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2321979321508728665}
   - component: {fileID: 2330809383634071333}
   - component: {fileID: 5827398855191195153}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LibraryChairGrabbable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -343,7 +343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999707062812260527}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Attach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   - component: {fileID: 5909374478592717812}
   - component: {fileID: 1139943756742650594}
   - component: {fileID: 6395524253239932771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: LibraryChair_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
